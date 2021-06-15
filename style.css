@@ -382,3 +382,23 @@ input[type=submit]:hover {
   margin-top: 20px;
   padding: 0 30px;
 }
+
+.socialmedia a {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.fa-facebook-square {
+  background: #4E423B;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.fa-linkedin {
+  background:#4E423B;
+  font-size: 20px;
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
