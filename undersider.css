@@ -1,0 +1,141 @@
+* {
+  margin: 1;
+  padding: 1;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #DCD4D0;
+}
+
+nav {
+  float: left;
+  display: flex;
+  justify-content: center;
+  background-color: #DCD4D0;
+  height: 140px;
+  width: 100%;
+  top: 0;
+  position: fixed;
+  z-index: 1;
+}
+
+.logo {
+  font-family: Sacramento;
+  font-size: 75px;
+  color:#2E2E2E;
+  text-decoration: none;
+}
+
+.navbar a {
+  float: left;
+  color: #2E2E2E;
+  font-size: 20px;
+  font-family: Arial;
+  padding: 40px 10px;
+  text-decoration: none;
+  margin-right: 35px;
+}
+
+ul {
+  margin: 30px;
+}
+
+ul li {
+  list-style: none;
+  float: left;
+  line-height: 20px;
+}
+
+ul li a {
+  display: block;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: arial;
+  color: black;
+  padding: 0 20px;
+}
+
+ul li a:hover {
+  color: #C1B9B5;
+}
+
+.headline {
+  font-family: Arial;
+  font-size: 40px;
+  color:#2E2E2E;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text {
+  font-family: Arial;
+  font-size: 18px;
+  color:#2E2E2E;
+  text-align: left;
+  line-height: 1.5;
+  text-align: left;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.box1 {
+  margin-top: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  height: 1450px;
+  background-color: #C1B9B5;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+
+.foto {
+  font-family: Arial;
+  font-size: 18px;
+  color:#2E2E2E;
+  text-align: left;
+  line-height: 1.5;
+  text-align: left;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.foto img {
+  width: 70%;
+  height: auto;
+  margin-top: 10px;
+  margin-left: 100px;
+  margin-right: 50px;
+}
+
+.movingart a {
+  font-family: Arial;
+  font-size: 18px;
+  color:#2E2E2E;
+  line-height: 3.0;
+  text-align: left;
+  margin-left: 150px;
+  text-decoration: underline;
+}
+
+.box2 {
+  margin-top: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  height: 1650px;
+  background-color: #C1B9B5;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+
+.movingart img {
+  width: 70%;
+  height: auto;
+  margin-top: 10px;
+  margin-left: 150px;
+  margin-bottom: 50px;
+}
