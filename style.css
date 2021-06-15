@@ -360,3 +360,25 @@ input[type=submit]:hover {
   font-family: Arial;
   padding: 0 80px;
 }
+
+/*footer*/
+
+.footer {
+  color: #DEDEDE;
+  font-family: Arial;
+  font-size: 15px;
+  background-color: #4E423B;
+  height: 100px;
+  width: 70%;
+  display: inline-block;
+  margin-left: 215px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+.footer div {
+  display: inline-block;
+  margin-left: 15px;
+  margin-top: 20px;
+  padding: 0 30px;
+}
