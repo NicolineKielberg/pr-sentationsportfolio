@@ -114,3 +114,84 @@ ul li a:hover {
   margin-top: -50px;
   margin-left: 60px;
 }
+
+/*portfolio*/
+
+#portfoliobox {
+  margin-top: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 70%;
+  height: 820px;
+  background-color: #C1B9B5;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+}
+
+.headline2 {
+  font-family: Arial;
+  font-size: 40px;
+  color:#2E2E2E;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+title {
+  height: 100%;
+}
+
+.myportfolio {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: Arial;
+  font-size: 20px;
+  color:#2E2E2E;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.projects {
+  display: flex;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin: 5px;
+  text-align: center;
+}
+
+.line1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.line2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image {
+  display: block;
+  width: 300px;
+  height: 300px;
+}
+
+.text {
+  color: #DEDEDE;
+  width: 100%;
+  height: 20%;
+  padding: 15px 15px;
+  background-color: #4e423bbf;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+  font-family: Arial;
+  font-style: normal;
+}
