@@ -238,3 +238,57 @@ title {
   height: 200px;
   justify-content: center;
 }
+
+/*Hvem er jeg*/
+
+#ommigbox {
+  margin-top: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  height: 450px;
+  background-color: #C1B9B5;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-around;
+}
+
+.main2 {
+  float: left;
+  padding: 15px 30px;
+  width: 55%;
+}
+
+.side2 {
+  float: right;
+  padding-top: 80px;
+  width: 45%
+}
+
+.side2 img{
+  width: 70%;
+  height: auto;
+  margin-top: 10px;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+.headline4 {
+  font-family: Arial;
+  font-size: 40px;
+  color:#2E2E2E;
+  text-align: left;
+  padding: 20px 20px;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+.aboutme {
+  font-family: Arial;
+  font-size: 18px;
+  color:#2E2E2E;
+  text-align: left;
+  padding: 0px 20px;
+  line-height: 1.5;
+  margin-left: 40px;
+}
