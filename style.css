@@ -63,3 +63,54 @@ ul li a {
 ul li a:hover {
   color: #C1B9B5;
 }
+
+/*forside*/
+
+#forsidebox {
+  margin-top: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  height: 475px;
+  background-color: #C1B9B5;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-around;
+}
+
+.main {
+  float: left;
+  padding: 15px 30px;
+  width: 55%;
+}
+
+.side {
+  float: right;
+  padding-top: 80px;
+  width: 45%
+}
+
+.side img {
+  width: 85%;
+  height: auto;
+  margin-top: -55px;
+}
+
+.headline1 {
+  font-family: Arial;
+  font-size: 50px;
+  color:#2E2E2E;
+  text-align: left;
+  padding: 20px 20px;
+  margin-top: 70px;
+  margin-left: 40px;
+}
+
+.bigheadline {
+  font-family: Arial;
+  font-size: 30px;
+  color:#2E2E2E;
+  text-align: left;
+  margin-top: -50px;
+  margin-left: 60px;
+}
