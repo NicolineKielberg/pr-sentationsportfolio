@@ -256,3 +256,43 @@ ul li a:hover {
   margin-right: 200px;
   margin-bottom: 50px;
 }
+
+footer {
+  color: #DEDEDE;
+  font-family: Arial;
+  font-size: 15px;
+  background-color: #4E423B;
+  height: 100px;
+  width: 70%;
+  display: inline-block;
+  margin-left: 215px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+.footer div {
+  display: inline-block;
+  margin-left: 15px;
+  margin-top: 20px;
+  padding: 0 30px;
+}
+
+.socialmedia a {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.fa-facebook-square {
+  background: #4E423B;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.fa-linkedin {
+  background:#4E423B;
+  font-size: 20px;
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
