@@ -60,23 +60,44 @@ ul li a:hover {
   color: #C1B9B5;
 }
 
-.headline {
+.fa-arrow-left {
+  color: #4E423B;
+  padding: 40px;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.fa-arrow-left:hover {
+  color: #DCD4D0;
+}
+
+.fa-arrow-up {
+  color: #4E423B;
+  padding: 40px;
+  font-size: 30px;
+  text-decoration: none;
+  margin-left: 900px;
+}
+
+.fa-arrow-up:hover {
+  color: #DCD4D0;
+}
+
+.foto-headline {
   font-family: Arial;
   font-size: 40px;
   color:#2E2E2E;
-  margin-left: auto;
+  margin-left: 220px;
   margin-right: auto;
 }
 
-.text {
+.foto-text {
   font-family: Arial;
   font-size: 18px;
   color:#2E2E2E;
-  text-align: left;
-  line-height: 1.5;
-  text-align: left;
-  margin-left: 150px;
-  margin-right: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 130px;
 }
 
 .box1 {
@@ -84,7 +105,7 @@ ul li a:hover {
   display: flex;
   flex-wrap: wrap;
   width: 70%;
-  height: 1450px;
+  height: 1500px;
   background-color: #C1B9B5;
   margin-left: auto;
   margin-right: auto;
@@ -110,6 +131,23 @@ ul li a:hover {
   margin-right: 50px;
 }
 
+.movingart-headline {
+  font-family: Arial;
+  font-size: 40px;
+  color:#2E2E2E;
+  margin-left: 200px;
+  margin-right: auto;
+}
+
+.movingart-text {
+  font-family: Arial;
+  font-size: 18px;
+  color:#2E2E2E;
+  margin-left: 20px;
+  padding: 0 130px;
+  line-height: 1.5;
+}
+
 .movingart a {
   font-family: Arial;
   font-size: 18px;
@@ -125,7 +163,7 @@ ul li a:hover {
   display: flex;
   flex-wrap: wrap;
   width: 70%;
-  height: 1650px;
+  height: 1750px;
   background-color: #C1B9B5;
   margin-left: auto;
   margin-right: auto;
@@ -138,6 +176,23 @@ ul li a:hover {
   margin-top: 10px;
   margin-left: 150px;
   margin-bottom: 50px;
+}
+
+.video-headline {
+  font-family: Arial;
+  font-size: 40px;
+  color:#2E2E2E;
+  margin-left: 210px;
+  margin-right: auto;
+}
+
+.video-text {
+  font-family: Arial;
+  font-size: 18px;
+  color:#2E2E2E;
+  margin-left: 20px;
+  padding: 0 130px;
+  line-height: 1.5;
 }
 
 .video a {
@@ -154,7 +209,7 @@ ul li a:hover {
   display: flex;
   flex-wrap: wrap;
   width: 70%;
-  height: 700px;
+  height: 750px;
   background-color: #C1B9B5;
   margin-left: auto;
   margin-right: auto;
@@ -167,6 +222,23 @@ ul li a:hover {
   margin-top: 10px;
   margin-left: 150px;
   margin-bottom: 50px;
+}
+
+.app-headline {
+  font-family: Arial;
+  font-size: 40px;
+  color:#2E2E2E;
+  margin-left: 260px;
+  margin-right: auto;
+}
+
+.app-text {
+  font-family: Arial;
+  font-size: 18px;
+  color:#2E2E2E;
+  margin-left: 20px;
+  padding: 0 130px;
+  line-height: 1.5;
 }
 
 .app a {
@@ -183,7 +255,7 @@ ul li a:hover {
   display: flex;
   flex-wrap: wrap;
   width: 70%;
-  height: 850px;
+  height: 950px;
   background-color: #C1B9B5;
   margin-left: auto;
   margin-right: auto;
@@ -198,12 +270,28 @@ ul li a:hover {
   margin-bottom: 50px;
 }
 
+
+.animation-headline {
+  font-family: Arial;
+  font-size: 40px;
+  color:#2E2E2E;
+  margin-left: 290px;
+  margin-right: auto;
+}
+
+.animation-text {
+  font-family: Arial;
+  font-size: 18px;
+  color:#2E2E2E;
+  margin-left: 20px;
+  padding: 0 130px;
+  line-height: 1.5;
+}
+
 .animation a {
   font-family: Arial;
   font-size: 18px;
   color:#2E2E2E;
-  line-height: 3.0;
-  text-align: left;
   margin-left: 150px;
 }
 
@@ -225,6 +313,24 @@ ul li a:hover {
   margin-left: 155px;
 }
 
+.poster-headline {
+  font-family: Arial;
+  font-size: 40px;
+  color:#2E2E2E;
+  margin-left: 340px;
+  margin-right: auto;
+}
+
+.poster-text {
+  font-family: Arial;
+  font-size: 18px;
+  color:#2E2E2E;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 0 130px;
+  line-height: 1.5;
+}
+
 .poster {
   font-family: Arial;
   font-size: 18px;
@@ -241,7 +347,7 @@ ul li a:hover {
   display: flex;
   flex-wrap: wrap;
   width: 70%;
-  height: 1150px;
+  height: 1250px;
   background-color: #C1B9B5;
   margin-left: auto;
   margin-right: auto;
@@ -257,10 +363,6 @@ ul li a:hover {
   margin-bottom: 50px;
 }
 
-.backtotop {
-  color: #4E423B;
-  
-}
 footer {
   color: #DEDEDE;
   font-family: Arial;
@@ -280,6 +382,7 @@ footer {
   margin-top: 20px;
   padding: 0 30px;
 }
+
 
 .socialmedia a {
   display: inline-block;
