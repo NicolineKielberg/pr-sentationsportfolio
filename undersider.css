@@ -13,7 +13,7 @@ nav {
   display: flex;
   justify-content: center;
   background-color: #DCD4D0;
-  height: 140px;
+  height: 20%;
   width: 100%;
   top: 0;
   position: fixed;
@@ -22,7 +22,7 @@ nav {
 
 .logo {
   font-family: Sacramento;
-  font-size: 75px;
+  font-size: 380%;
   color:#2E2E2E;
   text-decoration: none;
 }
@@ -30,15 +30,15 @@ nav {
 .navbar a {
   float: left;
   color: #2E2E2E;
-  font-size: 20px;
+  font-size: 120%;
   font-family: Arial;
-  padding: 40px 10px;
+  padding: 40px 6px;
   text-decoration: none;
-  margin-right: 35px;
+  margin-right: 49px;
 }
 
 ul {
-  margin: 30px;
+  margin: 2.5%;
 }
 
 ul li {
@@ -50,10 +50,10 @@ ul li {
 ul li a {
   display: block;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 120%;
   font-family: arial;
-  color: black;
-  padding: 0 20px;
+  color: #2E2E2E;
+  padding: 0% 2%;
 }
 
 ul li a:hover {
@@ -62,8 +62,8 @@ ul li a:hover {
 
 .fa-arrow-left {
   color: #4E423B;
-  padding: 40px;
-  font-size: 30px;
+  padding: 210%;
+  font-size: 150%;
   text-decoration: none;
 }
 
@@ -73,35 +73,95 @@ ul li a:hover {
 
 .fa-arrow-up {
   color: #4E423B;
-  padding: 40px;
-  font-size: 30px;
+  padding: 2%;
+  font-size: 150%;
   text-decoration: none;
-  margin-left: 900px;
+  margin-left: 2100%;
 }
 
 .fa-arrow-up:hover {
   color: #DCD4D0;
 }
 
+/*foto*/
+
 .foto-headline {
   font-family: Arial;
-  font-size: 40px;
+  font-size: 300%;
   color:#2E2E2E;
-  margin-left: 220px;
+  margin-left: 27%;
   margin-right: auto;
 }
 
 .foto-text {
   font-family: Arial;
-  font-size: 18px;
+  font-size: 130%;
   color:#2E2E2E;
   margin-left: auto;
   margin-right: auto;
-  padding: 0 130px;
 }
 
 .box1 {
-  margin-top: 150px;
+  margin-top: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  height: 1480px;
+  background-color: #C1B9B5;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+
+.foto {
+  font-family: Arial;
+  font-size: 130%;
+  color:#2E2E2E;
+  text-align: left;
+  line-height: 1.5;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.foto img {
+  width: 70%;
+  height: auto;
+  margin-top: 1%;
+  margin-left: 15%;
+  margin-right: 10%;
+}
+
+/*movingart*/
+
+.movingart-headline {
+  font-family: Arial;
+  font-size: 300%;
+  color:#2E2E2E;
+  margin-left: 22%;
+  margin-right: auto;
+}
+
+.movingart-text {
+  font-family: Arial;
+  font-size: 130%;
+  color:#2E2E2E;
+  margin-left: 2%;
+  padding: 0 13%;
+  line-height: 1.5;
+}
+
+.movingart a {
+  font-family: Arial;
+  font-size: 130%;
+  color:#2E2E2E;
+  line-height: 3.0;
+  text-align: left;
+  margin-left: 25%;
+  text-decoration: underline;
+}
+
+.box2 {
+  margin-top: 10%;
   display: flex;
   flex-wrap: wrap;
   width: 70%;
@@ -112,104 +172,49 @@ ul li a:hover {
   justify-content: center;
 }
 
-.foto {
-  font-family: Arial;
-  font-size: 18px;
-  color:#2E2E2E;
-  text-align: left;
-  line-height: 1.5;
-  text-align: left;
-  margin-left: 150px;
-  margin-right: 150px;
-}
-
-.foto img {
-  width: 70%;
-  height: auto;
-  margin-top: 10px;
-  margin-left: 100px;
-  margin-right: 50px;
-}
-
-.movingart-headline {
-  font-family: Arial;
-  font-size: 40px;
-  color:#2E2E2E;
-  margin-left: 200px;
-  margin-right: auto;
-}
-
-.movingart-text {
-  font-family: Arial;
-  font-size: 18px;
-  color:#2E2E2E;
-  margin-left: 20px;
-  padding: 0 130px;
-  line-height: 1.5;
-}
-
-.movingart a {
-  font-family: Arial;
-  font-size: 18px;
-  color:#2E2E2E;
-  line-height: 3.0;
-  text-align: left;
-  margin-left: 150px;
-  text-decoration: underline;
-}
-
-.box2 {
-  margin-top: 150px;
-  display: flex;
-  flex-wrap: wrap;
-  width: 70%;
-  height: 1750px;
-  background-color: #C1B9B5;
-  margin-left: auto;
-  margin-right: auto;
-  justify-content: center;
-}
-
 .movingart img {
-  width: 70%;
+  width: 50%;
   height: auto;
-  margin-top: 10px;
-  margin-left: 150px;
-  margin-bottom: 50px;
+  margin-top: 1%;
+  margin-left: 25%;
+  margin-right: 15%;
+  margin-bottom: 5%;
 }
+
+/*video*/
 
 .video-headline {
   font-family: Arial;
-  font-size: 40px;
+  font-size: 300%;
   color:#2E2E2E;
-  margin-left: 210px;
+  margin-left: 26%;
   margin-right: auto;
 }
 
 .video-text {
   font-family: Arial;
-  font-size: 18px;
+  font-size: 130%;
   color:#2E2E2E;
-  margin-left: 20px;
-  padding: 0 130px;
+  margin-left: 2%;
+  padding: 0 13%;
   line-height: 1.5;
 }
 
 .video a {
   font-family: Arial;
-  font-size: 18px;
+  font-size: 130%;
   color:#2E2E2E;
   text-align: left;
   line-height: 3.0;
-  margin-left: 150px;
+  margin-left: 15%;
 }
 
 .box3 {
-  margin-top: 150px;
+  margin-top: 10%;
   display: flex;
   flex-wrap: wrap;
   width: 70%;
-  height: 750px;
+  height: 770px;
   background-color: #C1B9B5;
   margin-left: auto;
   margin-right: auto;
@@ -219,43 +224,45 @@ ul li a:hover {
 .video img {
   width: 70%;
   height: auto;
-  margin-top: 10px;
-  margin-left: 150px;
-  margin-bottom: 50px;
+  margin-top: 1%;
+  margin-left: 15%;
+  margin-bottom: 5%;
 }
+
+/*app*/
 
 .app-headline {
   font-family: Arial;
-  font-size: 40px;
+  font-size: 300%;
   color:#2E2E2E;
-  margin-left: 260px;
+  margin-left: 33%;
   margin-right: auto;
 }
 
 .app-text {
   font-family: Arial;
-  font-size: 18px;
+  font-size: 130%;
   color:#2E2E2E;
-  margin-left: 20px;
-  padding: 0 130px;
+  margin-left: 2%;
+  padding: 0 13%;
   line-height: 1.5;
 }
 
 .app a {
   font-family: Arial;
-  font-size: 18px;
+  font-size: 130%;
   color:#2E2E2E;
   line-height: 3.0;
   text-align: left;
-  margin-left: 150px;
+  margin-left: 15%;
 }
 
 .box4 {
-  margin-top: 150px;
+  margin-top: 10%;
   display: flex;
   flex-wrap: wrap;
   width: 70%;
-  height: 950px;
+  height: 970px;
   background-color: #C1B9B5;
   margin-left: auto;
   margin-right: auto;
@@ -265,89 +272,94 @@ ul li a:hover {
 .app img {
   width: 70%;
   height: auto;
-  margin-top: 10px;
-  margin-left: 150px;
-  margin-bottom: 50px;
+  margin-top: 1%;
+  margin-left: 15%;
+  margin-bottom: 5%;
 }
 
 
+/*animation*/
+
 .animation-headline {
   font-family: Arial;
-  font-size: 40px;
+  font-size: 300%;
   color:#2E2E2E;
-  margin-left: 290px;
+  margin-left: 37%;
   margin-right: auto;
 }
 
 .animation-text {
   font-family: Arial;
-  font-size: 18px;
+  font-size: 130%;
   color:#2E2E2E;
-  margin-left: 20px;
-  padding: 0 130px;
+  margin-left: 2%;
+  padding: 0 13%;
   line-height: 1.5;
 }
 
 .animation a {
   font-family: Arial;
-  font-size: 18px;
+  font-size: 130%;
   color:#2E2E2E;
-  margin-left: 150px;
+  margin-left: 15%;
 }
 
 .box5 {
-  margin-top: 150px;
+  margin-top: 10%;
   display: flex;
   flex-wrap: wrap;
   width: 70%;
-  height: 1050px;
+  height: 1000px;
   background-color: #C1B9B5;
   margin-left: auto;
   margin-right: auto;
+  justify-content: center;
 }
 
 .animation img {
-  width: 70%;
+  width: 60%;
   height: auto;
-  margin-top: 20px;
-  margin-left: 155px;
+  margin-top: 5%;
+  margin-left: 15%;
 }
+
+/*poster*/
 
 .poster-headline {
   font-family: Arial;
-  font-size: 40px;
+  font-size: 300%;
   color:#2E2E2E;
-  margin-left: 340px;
+  margin-left: 40%;
   margin-right: auto;
 }
 
 .poster-text {
   font-family: Arial;
-  font-size: 18px;
+  font-size: 130%;
   color:#2E2E2E;
-  margin-left: 50px;
-  margin-right: 50px;
-  padding: 0 130px;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 0 13%;
   line-height: 1.5;
+  text-align: center;
 }
 
 .poster {
   font-family: Arial;
-  font-size: 18px;
+  font-size: 130%;
   color:#2E2E2E;
   text-align: left;
   line-height: 1.5;
-  text-align: left;
-  margin-left: 150px;
-  margin-right: 150px;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 .box6 {
-  margin-top: 150px;
+  margin-top: 10%;
   display: flex;
   flex-wrap: wrap;
   width: 70%;
-  height: 1250px;
+  height: 1010px;
   background-color: #C1B9B5;
   margin-left: auto;
   margin-right: auto;
@@ -355,51 +367,277 @@ ul li a:hover {
 }
 
 .poster img {
-  width: 90%;
+  width: 70%;
   height: auto;
-  margin-top: 10px;
-  margin-left: 30px;
-  margin-right: 200px;
-  margin-bottom: 50px;
+  margin-top: 1%;
+  margin-left: 15%;
+  margin-right: 20%;
+  margin-bottom: 5%;
 }
 
-footer {
+/*footer*/
+
+.footer {
   color: #DEDEDE;
   font-family: Arial;
-  font-size: 15px;
+  font-size: 95%;
   background-color: #4E423B;
   height: 100px;
   width: 70%;
   display: inline-block;
-  margin-left: 215px;
-  margin-top: 40px;
-  margin-bottom: 50px;
+  margin-left: 15%;
+  margin-top: 3%;
+  margin-bottom: 5%;
 }
 
 .footer div {
   display: inline-block;
+  padding: 0 30px;
   margin-left: 15px;
   margin-top: 20px;
-  padding: 0 30px;
 }
-
 
 .socialmedia a {
   display: inline-block;
-  margin-left: 15px;
+  margin-right: 10px;
 }
 
 .fa-facebook-square {
   background: #4E423B;
-  color: white;
-  font-size: 20px;
+  color:#DEDEDE;
+  font-size: 130%;
   text-decoration: none;
 }
 
 .fa-linkedin {
   background:#4E423B;
-  font-size: 20px;
-  color: white;
-  margin: 0 10px;
+  color: #DEDEDE;
+  font-size: 130%;
   text-decoration: none;
+}
+
+@media only screen and (max-width: 479px){
+
+/*navbar*/
+
+nav {
+  height: 10%;
+  width: 100%;
+}
+
+.logo {
+  font-size: 200%;
+}
+
+.navbar a {
+  font-size: 50%;
+  padding: 40px -10px;
+  margin-right: 5px;
+}
+
+ul {
+  margin: 2.5%;
+}
+
+ul li {
+  line-height: 2%;
+}
+
+ul li a {
+  padding: 5% 2%;
+}
+
+.fa-arrow-left {
+  padding: 20%;
+  font-size: 80%;
+  margin-top: 680%;
+  margin-right: 20%;
+}
+
+.fa-arrow-up {
+  padding: 2%;
+  font-size: 80%;
+  margin-left: 1000%;
+}
+
+/*foto*/
+
+.foto-headline {
+  font-size: 100%;
+  margin-top: 25%;
+  margin-left: 20%;
+}
+
+.foto-text {
+  font-size: 70%;
+  text-align: center;
+}
+
+.box1 {
+  width: 80%;
+  height: 620px;
+}
+
+.foto {
+  font-size: 90%;
+}
+
+.foto img {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/*movingart*/
+
+.movingart-headline {
+  font-size: 100%;
+  margin-top: 25%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.movingart-text {
+  font-size: 70%;
+}
+
+.movingart a {
+  font-size: 60%;
+  text-align: center;
+}
+
+.box2 {
+  width: 80%;
+  height: 750px;
+}
+
+/*video*/
+
+.video-headline {
+  font-size: 100%;
+  margin-top: 25%;
+  margin-left: 20%;
+}
+
+.video-text {
+  font-size: 70%;
+}
+
+.video a {
+  font-size: 60%;
+}
+
+.box3 {
+  width: 80%;
+  height: 370px;
+}
+
+.video img {
+  width: 80%;
+  margin-left: 10%;
+}
+
+/*app*/
+
+.app-headline {
+  font-size: 100%;
+  margin-top: 25%;
+  margin-left: 20%;
+}
+
+.app-text {
+  font-size: 70%;
+}
+
+.app a {
+  font-size: 40%;
+  text-align: center;
+  margin-left: 15%;
+}
+
+.box4 {
+  width: 80%;
+  height: 400px;
+}
+
+.app img {
+  width: 70%;
+  margin-top: 1%;
+  margin-left: 15%;
+  margin-bottom: 5%;
+}
+
+/*animation*/
+
+.animation-headline {
+  font-size: 100%;
+  margin-top: 25%;
+  margin-left: 30%;
+}
+
+.animation-text {
+  font-size: 70%;
+  margin-left: 2%;
+  padding: 0 13%;
+}
+
+.animation a {
+  font-size: 60%;
+  margin-left: 10%;
+}
+
+.box5 {
+  width: 80%;
+  height: 500px;
+}
+
+.animation img {
+  width: 80%;
+  margin-left: 10%;
+}
+
+/*poster*/
+
+.poster-headline {
+  font-size: 100%;
+  margin-top: 25%;
+  margin-left: 35%;
+}
+
+.poster-text {
+  font-size: 70%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.box6 {
+  width: 80%;
+  height: 490px;
+}
+
+.poster img {
+  width: 90%;
+  height: auto;
+}
+
+
+/*footer*/
+
+.footer {
+  font-size: 20%;
+  height: 40px;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 3%;
+  margin-bottom: 5%;
+}
+
+.footer div {
+  padding: 0 10px;
+  margin-left: -10px;
+  margin-top: 10px;
+}
+
+.socialmedia a {
+  margin-right: 2px;
 }
